@@ -91,7 +91,7 @@ for yr in range(2001,2020+1):
     filname = "distance-"
     outfile = os.path.join(outpath, filname)
 
-    inpath_flist = glob.glob(inputpath + f"/*Y{yr}*{province}.tif")[d_start_n:d_end_n]
+    inpath_flist = glob.glob(inputpath + f"/*Y{yr}*{province}.tif")
     Province_CROP_ndvi = np.array([gdal.Open(tif_file).ReadAsArray() for tif_file in inpath_flist])
     _, ref0 = readgtiff(inpath_flist[0])
 
