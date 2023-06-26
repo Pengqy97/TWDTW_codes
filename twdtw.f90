@@ -5,7 +5,7 @@
 ! double32: Time series in real(8)，date series in interger(4)
 ! single64: Time series in real(4)，date series in interger(8)
 ! single32: Time series in real(4)，date series in interger(4)
-! Original algorithm written in R
+! Original algorithm written in R (https://github.com/vwmaus/dtwSat)
 ! Converted to MATLAB by Jie Dong
 ! Converted to Fortran by Ruoque Shen (https://github.com/shenrq)
 ! VERSION: v2023.06.26
