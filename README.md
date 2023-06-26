@@ -6,9 +6,9 @@ The TWDTW codes provides a full calculation of the Time-Weighted Dynamic Time Wa
 
 ## Instruction：
 
-(1) Use 'distance_calculate.py' first to obtain the distance file of each province, then use 'maize_classified.jl' to obtain the classified maize file through the distance file and threshold of each province.
+(1) Use '**distance_calculate.py**' first to obtain the distance file of each province, then use '**maize_classified.jl**' to obtain the classified maize file through the distance file and threshold of each province.
 
-(2) It should be noted that 'twdtw.f90' is the main code for calculating the distance, which should be called by 'distance_calculate.py'. Besides, 'recognize_core.jl' is the main code for classifying maize by the distance file, which should be called by 'maize_classified.jl'.
+(2) It should be noted that '**twdtw.f90**' is the main code for calculating the distance, which should be called by '**distance_calculate.py**'. Besides, 'recognize_core.jl' is the main code for classifying maize by the distance file, which should be called by '**maize_classified.jl**'.
 
 ## References
 
